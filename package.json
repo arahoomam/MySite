@@ -1,0 +1,28 @@
+{
+  "name": "arahoomam",
+  "version": "1.0.0",
+  "description": "Personal site for Mamoru O'Hara",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arahoomam/MySite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arahoomam/MySite/issues"
+  },
+  "homepage": "https://github.com/arahoomam/MySite#readme",
+  "dependencies": {
+    "angular": "1.5.5",
+    "angular-route": "^1.5.9",
+    "express": "^4.14.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^1.2.1"
+  }
+}
