@@ -1,2 +1,2 @@
 # MySite
-Personal site
+Holds info for my personal website
