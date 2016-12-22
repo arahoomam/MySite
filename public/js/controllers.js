@@ -26,3 +26,15 @@ ArahoomamControllers.controller('ProjectsController', ['$scope',
         $scope.test = 'projects';
     }]
 );
+
+/**
+ * ========================================
+ * Controller for the resume page
+ * ========================================
+ */
+ArahoomamControllers.controller('ResumeController', ['$scope',
+    function($scope) {
+
+        $scope.test = 'Resume';
+    }]
+);

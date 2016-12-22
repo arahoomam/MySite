@@ -8,15 +8,71 @@
     <script src="/node/angular/angular.min.js"></script>
     <script src="/node/angular-route/angular-route.min.js"></script>
 
+    <!--Custom Styles-->
+    <link rel="stylesheet" href="css/styles.css">
+
     <!--Custom angular scripts-->
     <script src="js/app.js"></script>
     <script src="js/controllers.js"></script>
     <script src="js/services.js"></script>
 
+    <!--Semantic UI and jQuery-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/semantic/dist/semantic.min.css">
+    <script src="/semantic/dist/semantic.min.js"></script>
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.6/semantic.min.css">-->
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.6/semantic.min.js"></script>-->
+
+    <!--Waypoints-->
+    <script src="/node/waypoints/lib/jquery.waypoints.min.js"></script>
 </head>
+
 <body ng-app="Arahoomam">
-    <a href="#/home">Home</a>
-    <a href="#/projects">Projects</a>
-    <div ng-view></div>
+    <div id="nav" class="ui buttons fixed top sticky large horizontal divided list">
+        <div class="item">
+            <a href="#/home">
+                <button class="ui inverted standard labeled icon button nav-button active">
+                    <i class="home icon"></i>
+                    Home
+                </button>
+            </a>
+        </div>
+
+        <div class="item">
+            <a href="#/projects">
+                <button class="ui inverted blue labeled icon button nav-button">
+                    <i class="object group icon"></i>
+                    Projects
+                </button>
+            </a>
+        </div>
+
+        <div class="item">
+            <a href="#/resume">
+                <button class="ui inverted orange labeled icon button nav-button">
+                    <i class="file text outline icon"></i>
+                    Resume
+                </button>
+            </a>
+        </div>
+    </div>
+
+    <div id="main-container">
+        <div class="ui container" ng-view></div>
+    </div>
+
+    <div class="footer">
+        <button class="ui facebook button">
+            <i class="facebook icon"></i>
+            Facebook
+        </button>
+
+        <button class="ui linkedin button">
+            <i class="linkedin icon"></i>
+            LinkedIn
+        </button>
+    </div>
+
+    <script src="js/scripts.js"></script>
 </body>
 </html>

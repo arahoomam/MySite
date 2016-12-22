@@ -1,2 +1,5 @@
 .idea/
 node_modules/
+semantic.json
+semantic/
+public/css/
